@@ -1,2 +1,2 @@
 # calculator
-This is the repository for the "Calculator" project in The Odin Project
+This is the repository for the "Calculator" project at The Odin Project

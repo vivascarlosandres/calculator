@@ -1,36 +1,32 @@
-const add = function (a, b) {
+function add(a, b) {
     return a + b;
-
 };
 
-const subtract = function (a, b) {
+function substract(a, b) {
     return a - b;
-
 };
 
-const multiply = function (a, b) {
+function multiply(a, b) {
     return a * b;
 };
 
-const divide = function (a, b) {
+function divide(a, b) {
     return a / b;
 }
 
-let num1;
-let num2;
-let operator;
-
-const operate = function (operator, num1, num2) {
+function operate(operator, a, b) {
     switch (operator) {
-        case '+':
-            return add(num1, num2);
-        case '-':
-            return subtract(num1, num2);
-        case '*':
-            return multiply(num1, num2);
-        case '/':
-            return divide(num1, num2);
+        case "+":
+            return add(a, b);
+        case "−":
+            return substract(a, b);
+        case "×":
+            return multiply(a, b);
+        case "÷":
+            return divide(a, b);
         default:
-            return null; //Invalid operator
+            return;
     }
 }
+
+

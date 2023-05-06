@@ -71,7 +71,7 @@ button {
 .screen {
     padding: 10px 20px;
     border: 2px var(--border) solid;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-bottom: 20px;
     background-color: var(--screen);
     text-align: right;
@@ -102,7 +102,7 @@ button {
 .btn {
     padding: 20px;
     border: 2px var(--border) solid;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: var(--btn);
     font-size: 20px;
 }
